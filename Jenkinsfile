@@ -4,7 +4,7 @@ pipeline{
     stage('Execute python'){
       steps{
         sh 'pip install queuelib'
-        sh 'python Game.py'
+        sh 'python3 Game.py'
       }
     }
   }
